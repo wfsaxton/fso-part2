@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_KEY = "cd5d7a158b5be52739749fad4c206e3a"
+const API_KEY = "<INSERT KEY>"
 const baseUrl = `https://api.openweathermap.org/data/2.5/onecall?exclude=hourly,daily&appid=${API_KEY}`
 
 const getWeather = async (lat: number, lon: number) => {
